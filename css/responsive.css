@@ -1,0 +1,442 @@
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .titlepage h2 {
+        font-size: 2em;
+    }
+
+    .text-bg h1 {
+        font-size: 32px;
+    }
+    #timer {
+        font-size: 35px;
+    }
+    #timer div{
+        min-width: 65px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .titlepage h2 {
+        font-size: 1.7em;
+    }
+
+    .text-bg h1 {
+        font-size: 30px;
+    }
+
+    #timer {
+        font-size: 35px;
+    }
+
+    #timer div{
+        min-width: 65px;
+    }
+
+    .about-content p {
+        text-align: center;
+        margin-right: 0;
+   }
+
+    .about-img {
+        margin: auto;
+        width: 50%;
+    }
+
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: rgb(0, 0, 0);
+        padding: 20px;
+        margin-top: 56px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: rgb(255, 255, 255);
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border-color: #fff;
+        float: right;
+    }
+
+    .text-bg h1 {
+        padding-top: 0px;
+        font-size: 44px;
+        line-height: 61px;
+        padding-bottom: 18px;
+    }
+    .text-bg span {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .text-bg a {
+        margin-right: 5px;
+        padding: 10px 23px;
+        float: inherit;
+        max-width: 156px;
+    }
+    .tracks .tracks-box {
+        padding: 25px 15px;
+    }
+
+    .tracks .tracks-box h3 {
+        font-size: 1.6em;
+   }
+   
+    .tracks .tracks-box p {
+        font-size: 1em;
+    }
+    .why .why-box {
+        padding: 40px 10px 20px 10px;
+    }
+    .why .why-box h3 {
+        font-size: 19px;
+    }
+    .bg {
+        max-width: 170px;
+    }
+    .cont span {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .cont {
+        margin-top: 47%;
+    }
+
+    .footer .da img{
+        width: 60%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .sponsors .sponsor-box img{
+        max-width: 70%;
+    }
+
+    .titlepage h2 {
+        font-size: 1.5em;
+    }
+
+    .about-content p {
+        text-align: center;
+        margin-right: 0;
+   }
+
+    .about-img {
+        margin: auto;
+        width: 70%;
+    }
+
+    #timer {
+        margin-left: 0;
+    }
+    
+    .mean-container .mean-bar {
+        margin-top: 0px;
+    }
+
+    .text-bg {
+        text-align: center;
+    }
+    .text-bg a {
+        float: inherit;
+        margin-bottom: 30px;
+    }
+    .web_hosting p {
+        padding: 40px 0px;
+    }
+    .bg {
+        margin-bottom: 30px;
+    }
+
+    .cont {
+        margin-top: 50%;
+    }
+    .cont span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: rgb(0, 0, 0);
+        padding: 20px;
+        margin-top: 56px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: rgb(255, 255, 255);
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border-color: #fff;
+        float: right;
+    }
+
+    .tracks .tracks-box{
+        height: fit-content;
+        margin-bottom: 10%;
+    }
+
+    .tracks .tracks-box .img-box{
+        height: 20%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10%;
+   }
+   .tracks .tracks-box .img-box img {
+        max-width: 70%;
+    }
+    .tracks .tracks-box p {
+        font-size: 1.2em;
+    }
+
+    .footer .da img{
+        width: 60%;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .sponsors .sponsor-box img{
+        max-width: 60%;
+    }
+
+    .titlepage h2 {
+        font-size: 1.3em;
+    }
+
+    .reach-us .map iframe{
+        height: 60%;
+        max-width: 80%;
+    }
+    .about-content p {
+        text-align: center;
+        margin-right: 0;
+   }
+    #timer {
+        font-size: 30px;
+    }
+
+    #timer div{
+        min-width: 60px;
+    }
+
+    .about-img {
+        margin: auto;
+        width: 80%;
+    }
+
+    #timer {
+        margin-left: 0;
+    }
+
+    .text-bg {
+        text-align: center;
+        align-items: center;
+    }
+    .logo {
+        text-align: center !important;
+        float: left;
+    }
+    .logo a{
+        margin-right: 10px;
+    }
+    .logo img {
+        max-width: 90px;
+   }
+    .text-bg h1 {
+        font-size: 30px;
+        line-height: 55px;
+        padding-bottom: 18px;
+    }
+    .text-bg a {
+        float: inherit;
+        margin-bottom: 30px;
+    }
+    .text-bg span {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .web_hosting p {
+        padding: 40px 0px;
+    }
+    .bg {
+        margin-bottom: 30px;
+    }
+    .cont h3 {
+        font-size: 30px;
+    }
+    .cont span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .cont {
+        margin-top: 89%;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: rgb(0, 0, 0);
+        padding: 20px;
+        margin-top: 56px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: rgb(255, 255, 255);
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border-color: #fff;
+        float: right;
+    }
+
+    .tracks .tracks-box{
+        height: fit-content;
+        margin: 10%;
+    }
+
+    .tracks .tracks-box .img-box{
+        height: 20%;
+        display: flex;
+        align-items: center;
+        margin: 10%;
+   }
+   
+    .tracks .tracks-box p {
+        font-size: 1.1em;
+    }
+
+   .footer .da img{
+        width: 60%;
+    }
+
+    .sp-track-box{
+        display: block;
+        margin: 5%;
+    }
+
+    .sp-track-box img{
+        float: none !important;
+        width: 50%; 
+        margin: 10%;
+    }
+
+    #daiict img, #wie img{
+        width: 40%;
+   }
+   .logo img{
+        width: 50px;
+    }
+
+}
+
+@media (max-width: 992.98px) {
+    .timeline {
+        padding: 15px;
+    }
+    .timeline:after {
+        border: 0;
+    }
+
+    .timeline .timeline-row:nth-child(odd) {
+        padding: 0;
+    }
+    .timeline .timeline-row:nth-child(odd) .timeline-time {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0px 0 10px 0;
+    }
+    .timeline .timeline-row:nth-child(odd) .timeline-content {
+        margin: 0;
+    }
+    .timeline .timeline-row:nth-child(odd) .timeline-content:before {
+        display: none;
+    }
+    .timeline .timeline-row:nth-child(odd) .timeline-content:after {
+        display: none;
+    }
+    .timeline .timeline-row:nth-child(even) {
+        padding: 0;
+    }
+    .timeline .timeline-row:nth-child(even) .timeline-time {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0 0 10px 0;
+        text-align: left;
+    }
+    .timeline .timeline-row:nth-child(even) .timeline-content {
+        margin: 0;
+    }
+    .timeline .timeline-row:nth-child(even) .timeline-content:before {
+        display: none;
+    }
+    .timeline .timeline-row:nth-child(even) .timeline-content:after {
+        display: none;
+    }
+    .timeline-row{
+        margin-bottom: 20%;
+    }
+    .timeline .timeline-time{
+        padding-left: 5%;
+        margin: 5% 0 5% 0;
+        font-size: 1.4em;
+    }
+    .timeline .timeline-time small{
+        font-size: 1.1em
+    }
+    .timeline-row .timeline-content h4{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 419.98px) {
+    .logo a{
+        margin-right: 4px;
+    }
+    .logo img {
+        width: 45px;
+    }
+}
+
+@media (max-width: 331.98px) {
+    .logo a{
+        margin-right: 2px;
+    }
+    .logo img {
+        width: 40px;
+    }
+}
