@@ -453,6 +453,7 @@ button {
      font-weight: bold;
      padding: 10px;
 }
+
 /* timer */
 
 .flip-timer {
@@ -604,7 +605,7 @@ button {
      background: url('../images/Desktop\ -\ 2.png');
      background-repeat: no-repeat;
      background-size: 100% 100%;
-     padding-top: 5%;
+     padding-top: 5px;
      font-family: 'Jetbrains', monospace;
      color: #ffffff;
      padding-bottom: 3%;
